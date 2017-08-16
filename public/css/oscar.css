@@ -1,0 +1,66 @@
+body {
+  background-color: #28dcaa;
+}
+
+header h2 {
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+#quotes {
+  color: #fff;
+}
+
+#quotes option {
+  color: #000;
+}
+
+form .zip {
+  width: 16% !important;
+  font-size: 3rem !important;
+  border-bottom: 4px solid #fff !important;
+  text-align: center;
+  font-weight: 900;
+}
+
+form .years {
+  width: 8% !important;
+  font-size: 3rem !important;
+  border-bottom: 4px solid #fff !important;
+  text-align: center;
+  font-weight: 900;
+}
+
+form .money {
+  width: 18% !important;
+  font-size: 3rem !important;
+  border-bottom: 4px solid #fff !important;
+  text-align: center;
+  font-weight: 900;
+}
+
+button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+form .cover {
+  display: inline-block;
+  width: 60%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #fff;
+  height: 60px;
+}
+
+form .person {
+  display: inline-block;
+  width: 10%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #fff;
+  height: 60px;
+}
