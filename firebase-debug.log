@@ -1,0 +1,29 @@
+[debug] [2017-08-16T03:39:00.356Z] ----------------------------------------------------------------------
+[debug] [2017-08-16T03:39:00.359Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-08-16T03:39:00.359Z] CLI Version:   3.9.2
+[debug] [2017-08-16T03:39:00.359Z] Platform:      linux
+[debug] [2017-08-16T03:39:00.360Z] Node Version:  v6.11.1
+[debug] [2017-08-16T03:39:00.360Z] Time:          Tue Aug 15 2017 22:39:00 GMT-0500 (CDT)
+[debug] [2017-08-16T03:39:00.360Z] ----------------------------------------------------------------------
+[debug] 
+[warn] ⚠  Deprecation Warning: Firebase Hosting configuration should be moved under "hosting" key.
+[debug] [2017-08-16T03:39:00.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-16T03:39:00.375Z] > authorizing via signed-in user
+[debug] [2017-08-16T03:39:00.378Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hi-oscar-31e7c  
+ Tue Aug 15 2017 22:39:00 GMT-0500 (CDT)
+[debug] [2017-08-16T03:39:01.298Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-16T03:39:01.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hi-oscar-31e7c/tokens  
+ Tue Aug 15 2017 22:39:01 GMT-0500 (CDT)
+[debug] [2017-08-16T03:39:01.974Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/daffyta/www/sprint-siete/hi-oscar'...
+[info] 
+[debug] [2017-08-16T03:39:01.979Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hi-oscar-31e7c  
+ Tue Aug 15 2017 22:39:01 GMT-0500 (CDT)
+[debug] [2017-08-16T03:39:02.441Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-16T03:39:02.442Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/545946634939/clients/_:getWebAppConfig  
+ Tue Aug 15 2017 22:39:02 GMT-0500 (CDT)
+[debug] [2017-08-16T03:39:03.070Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
