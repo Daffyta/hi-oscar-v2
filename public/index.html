@@ -40,7 +40,7 @@
         <div class="col s6">
           <p>Hi, we're Oscar.</p>
           <h2>Health <br> insurance that’s <br> easy.</h2>
-          <button type="button" name="button">Get Your Free Quote</button>
+          <a href="vistas/oscar.html"><button type="button" name="button">Get Your Free Quote</button></a>
           <br>
           <span>Looking for a <a href="#">Business quote</a>?</span>
         </div>
@@ -205,42 +205,22 @@
         </div>
       </div>
       <hr>
-      <div class="center">
-        <ul class="center" style="display:flex">
-          <li><a href="#">Terms of service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Non-Discrimination Notice</a></li>
-          <li><a href="#">Compliance</a></li>
-          <li><a href="#">En Espanol</a></li>
+      <div class="right-align" style="display:flex">
+        <ul class="right-align" style="display:flex">
+          <li><a href="#">Terms of service&nbsp;&nbsp;</a></li>
+          <li><a href="#">&nbsp;Privacy Policy&nbsp;&nbsp;</a></li>
+          <li><a href="#">&nbsp;Non-Discrimination Notice&nbsp;&nbsp;</a></li>
+          <li><a href="#">&nbsp;Compliance&nbsp;&nbsp;</a></li>
+          <li><a href="#">&nbsp;&nbsp;En Espanol</a></li>
         </ul>
       </div>
     </div>
   </footer>
-
-
-
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDUwryOukFHoF73TFOpdiK5hNq561dsncM",
-      authDomain: "hi-oscar-31e7c.firebaseapp.com",
-      databaseURL: "https://hi-oscar-31e7c.firebaseio.com",
-      projectId: "hi-oscar-31e7c",
-      storageBucket: "",
-      messagingSenderId: "545946634939"
-    };
-    firebase.initializeApp(config);
-
-    var db = firebase.database();
-    db.ref('metadata').set({
-      app: 'hi-oscar',
-      ver: '0.0.1'
-    });
-  </script>
+  <script type="text/javascript" src="js/firebase.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <!-- <script type="text/javascript" src="js/main.js"></script> -->
 </body>
 </html>

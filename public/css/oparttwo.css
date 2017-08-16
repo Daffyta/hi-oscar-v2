@@ -1,0 +1,42 @@
+body {
+  background-color: #28dcaa;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+header h2 {
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+header h2 a{
+  color: #fff;
+}
+
+#form .expect {
+  color: #fff;
+  font-size: 2rem;
+}
+
+label:before {
+  border: 2px solid #ffffff !important;
+}
+
+.eg {
+  margin-left: 4%;
+  color: #1fae86;
+  font-weight: 300;
+}
+
+.eg:hover {
+  color: #376659;
+}
+
+button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
